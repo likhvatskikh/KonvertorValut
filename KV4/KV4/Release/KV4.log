@@ -1,5 +1,5 @@
-﻿Построение начато 13.07.2016 16:57:35.
-     1>Проект "C:\Users\Михаил Борщевский\Desktop\KV4\KV4\KV4.vcxproj" в узле 2 (целевые объекты build).
+﻿Построение начато 21.07.2016 22:08:48.
+     1>Проект "C:\Users\Михаил Борщевский\Desktop\KonvertorValut-master\KV4\KV4\KV4.vcxproj" в узле 2 (целевые объекты build).
      1>InitializeBuildStatus:
          Создание "Release\KV4.unsuccessfulbuild", так как было задано "AlwaysCreate".
        GenerateTargetFrameworkMonikerAttribute:
@@ -15,19 +15,19 @@
        ResourceCompile:
          Для всех выходных данных обновления не требуется.
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Михаил Борщевский\Desktop\KV4\Release\KV4.exe" /INCREMENTAL:NO /NOLOGO /ASSEMBLYRESOURCE:Release\KV4.Form1.resources /MANIFEST /ManifestFile:"Release\KV4.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Михаил Борщевский\Desktop\KV4\Release\KV4.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"main" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Release\app.res
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Михаил Борщевский\Desktop\KonvertorValut-master\KV4\Release\KV4.exe" /INCREMENTAL:NO /NOLOGO /ASSEMBLYRESOURCE:Release\KV4.Form1.resources /MANIFEST /ManifestFile:"Release\KV4.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Михаил Борщевский\Desktop\KonvertorValut-master\KV4\Release\KV4.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"main" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Release\app.res
          Release\AssemblyInfo.obj
          Release\KV4.obj
          Release\stdafx.obj
          "Release\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
-         KV4.vcxproj -> C:\Users\Михаил Борщевский\Desktop\KV4\Release\KV4.exe
+         KV4.vcxproj -> C:\Users\Михаил Борщевский\Desktop\KonvertorValut-master\KV4\Release\KV4.exe
        Manifest:
-         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Михаил Борщевский\Desktop\KV4\Release\KV4.exe;#1" /manifest Release\KV4.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Михаил Борщевский\Desktop\KonvertorValut-master\KV4\Release\KV4.exe;#1" /manifest Release\KV4.exe.intermediate.manifest
        FinalizeBuildStatus:
          Файл "Release\KV4.unsuccessfulbuild" удаляется.
          Обращение к "Release\KV4.lastbuildstate".
-     1>Построение проекта "C:\Users\Михаил Борщевский\Desktop\KV4\KV4\KV4.vcxproj" завершено (целевые объекты build).
+     1>Построение проекта "C:\Users\Михаил Борщевский\Desktop\KonvertorValut-master\KV4\KV4\KV4.vcxproj" завершено (целевые объекты build).
 
 Построение успешно завершено.
 
-Затраченное время: 00:00:00.95
+Затраченное время: 00:00:00.52

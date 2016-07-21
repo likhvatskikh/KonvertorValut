@@ -72,6 +72,7 @@ namespace KV4 {
 			this->textBox1->Size = System::Drawing::Size(555, 31);
 			this->textBox1->TabIndex = 0;
 			this->textBox1->TextChanged += gcnew System::EventHandler(this, &Form1::textBox1_TextChanged);
+			this->textBox1->KeyPress += gcnew System::Windows::Forms::KeyPressEventHandler(this, &Form1::textBox1_KeyPress);
 			// 
 			// textBox2
 			// 
@@ -215,6 +216,10 @@ private: System::Void textBox1_TextChanged(System::Object^  sender, System::Even
 			 else textBox2->Text="Валюта неизвестна";
 		 }
 
+private: System::Void textBox1_KeyPress(System::Object^  sender, System::Windows::Forms::KeyPressEventArgs^  e) {
+			 if(textBox1->Text!="")
+			 if(Convert::ToDouble(textBox1->Text)>10000000 && e->KeyChar!=8)e->Handled=true;
+		 }
 };
 }
 
